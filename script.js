@@ -23,9 +23,9 @@ function updatePinDisplay() {
     let displayStr = "";
     for (let i = 0; i < 6; i++) {
         if (i < currentPin.length) {
-            displayStr += "●";
+            displayStr += "*";
         } else {
-            displayStr += "O";
+            displayStr += "°";
         }
     }
     pinDisplay.innerText = displayStr;
